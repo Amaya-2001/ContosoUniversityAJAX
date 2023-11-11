@@ -1,0 +1,19 @@
+﻿@model IEnumerable<PracticeProject.Models.StudentModel>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div id="studentList">
+   
+</div>
+@* @await Html.PartialAsync("_StudentTablePartial", Model)  *@
+ @* Refer to the js file to call the function *@
+ <script src="~/js/StudentFunction/student.index.js"></script> 
+
