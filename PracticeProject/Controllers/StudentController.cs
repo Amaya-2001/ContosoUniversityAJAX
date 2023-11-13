@@ -21,9 +21,7 @@ namespace PracticeProject.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            //var students = await _studentService.GetStudents();
-            //var studentModel = ServiceConfigureExtensions.ToStudentModelList(students);
-            //return Json(studentModel);
+            
             return View();
         }
         public async Task<IActionResult> GetStudentList()
@@ -37,9 +35,7 @@ namespace PracticeProject.Controllers
         // Get: Students/Details
         public async Task<IActionResult> Details(int id)
         {
-            var student = await _studentService.GetStudentByID(id);
-            var studentModel = ServiceConfigureExtensions.ToStudentModel(student);
-            return PartialView("Details", studentModel);
+            return View(id);
         }
         public async Task<IActionResult> GetStudentDetails(int id)
         {

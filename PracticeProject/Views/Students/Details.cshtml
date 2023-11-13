@@ -1,7 +1,7 @@
-﻿@model PracticeProject.Models.StudentDetailsModel
+﻿@model int?
 
 @{
-    Layout = "_Layout";
+   
     ViewData["Title"] = "Details";
 }
 
@@ -10,11 +10,12 @@
 <div>
     <h4>Student</h4>
     <hr />
+    <input type="hidden" value=@Model id="ID" />
     <div id="studentDetailsContainer"></div>
    
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
 @* Refer to the js file to call the function *@
