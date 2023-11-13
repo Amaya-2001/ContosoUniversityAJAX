@@ -26,3 +26,17 @@ D:\Soft Gallery Tasks\UniversityProjectWithAJAX\DataAcessLayer\obj\Debug\net7.0\
 D:\Soft Gallery Tasks\UniversityProjectWithAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.pdb
 D:\Soft Gallery Tasks\UniversityProjectWithAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.genruntimeconfig.cache
 D:\Soft Gallery Tasks\UniversityProjectWithAJAX\DataAcessLayer\obj\Debug\net7.0\ref\DataAcessLayer.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.deps.json
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.runtimeconfig.json
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\bin\Debug\net7.0\DataAcessLayer.pdb
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.csproj.AssemblyReference.cache
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.AssemblyInfoInputs.cache
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.AssemblyInfo.cs
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.csproj.CoreCompileInputs.cache
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\refint\DataAcessLayer.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.pdb
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\DataAcessLayer.genruntimeconfig.cache
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\DataAcessLayer\obj\Debug\net7.0\ref\DataAcessLayer.dll

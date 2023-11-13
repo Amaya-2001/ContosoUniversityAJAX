@@ -21,10 +21,15 @@ namespace PracticeProject.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            return View();
+        }
+        public async Task<IActionResult> GetEnrollmentList()
+        {
             var enrollments = await _enrollmentService.GetEnrollments();
             var enrollmentModel = EnrollmentServicesCfg.ToEnrollmentList(enrollments);
-            return PartialView("Index", enrollmentModel);
+            return PartialView("~/Views/Enrollments/PartialViews/EnrollmentListPartial.cshtml", enrollmentModel);
         }
+
         //Get: Enrollment/Details
         public async Task<IActionResult> Details(int? id)
         {

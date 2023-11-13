@@ -23,9 +23,14 @@ namespace PracticeProject.Controllers
 
         public async Task<IActionResult> Index()
         {
+            return View();
+        }
+
+        public async Task<IActionResult> GetCourseList()
+        {
             var courses = await _courseService.GetCourses();
             var courseModel = CourseServiceCfg.ToCourseList(courses);
-            return PartialView("Index",courseModel);
+            return PartialView("~/Views/Courses/PartialViews/CourseListPartial.cshtml", courseModel);
         }
 
         // GET: Courses/Details/5

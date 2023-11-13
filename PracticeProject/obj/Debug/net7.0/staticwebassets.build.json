@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4e/f8Dm4hWKpeh9ouSuhNwFKxMv+6swTkbf6dkx7LrQ=",
+  "Hash": "h/Yf+aX8V0o1U26qkf0oLs2f0SVztFLqhodWyq8wBoU=",
   "Source": "PracticeProject",
   "BasePath": "_content/PracticeProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PracticeProject\\wwwroot",
       "Source": "PracticeProject",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PracticeProject.styles.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PracticeProject.styles.css",
       "SourceId": "PracticeProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "PracticeProject.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PracticeProject.styles.css"
+      "OriginalItemSpec": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PracticeProject.styles.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PracticeProject.bundle.scp.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PracticeProject.bundle.scp.css",
       "SourceId": "PracticeProject",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "PracticeProject.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PracticeProject.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PracticeProject.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\css\\site.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\favicon.ico",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\axios.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\axios.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "js/axios.min.js",
       "AssetKind": "All",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\js\\axios.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\CourseCreate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.create.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/CourseFunction/CourseCreate.js",
+      "RelativePath": "js/CourseFunction/course.create.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\CourseCreate.js"
+      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\course.create.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\CourseDelete.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.delete.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/CourseFunction/CourseDelete.js",
+      "RelativePath": "js/CourseFunction/course.delete.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\CourseDelete.js"
+      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\course.delete.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\CourseIndex.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.index.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/CourseFunction/CourseIndex.js",
+      "RelativePath": "js/CourseFunction/course.index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\CourseIndex.js"
+      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\course.index.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\CourseUpdate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.update.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/CourseFunction/CourseUpdate.js",
+      "RelativePath": "js/CourseFunction/course.update.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\CourseUpdate.js"
+      "OriginalItemSpec": "wwwroot\\js\\CourseFunction\\course.update.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\enrollement.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\enrollement.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "js/enrollement.js",
       "AssetKind": "All",
@@ -187,10 +187,27 @@
       "OriginalItemSpec": "wwwroot\\js\\enrollement.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.details.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.delete.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
+      "BasePath": "_content/PracticeProject",
+      "RelativePath": "js/EnrollmentFunction/enrollment.delete.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\enrollment.delete.js"
+    },
+    {
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.details.js",
+      "SourceId": "PracticeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "js/EnrollmentFunction/enrollment.details.js",
       "AssetKind": "All",
@@ -204,12 +221,12 @@
       "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\enrollment.details.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\EnrollmentDelete.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.index.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/EnrollmentFunction/EnrollmentDelete.js",
+      "RelativePath": "js/EnrollmentFunction/enrollment.index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\EnrollmentDelete.js"
+      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\enrollment.index.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\EnrollmentIndex.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.update.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/EnrollmentFunction/EnrollmentIndex.js",
+      "RelativePath": "js/EnrollmentFunction/enrollment.update.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,30 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\EnrollmentIndex.js"
+      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\enrollment.update.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\EnrollmentUpdate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\site.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
-      "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/EnrollmentFunction/EnrollmentUpdate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\EnrollmentUpdate.js"
-    },
-    {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\site.js",
-      "SourceId": "PracticeProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -272,12 +272,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\StudentCreate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\student.create.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/StudentFunction/StudentCreate.js",
+      "RelativePath": "js/StudentFunction/student.create.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\StudentCreate.js"
+      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.create.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\StudentDelete.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\student.delete.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/StudentFunction/StudentDelete.js",
+      "RelativePath": "js/StudentFunction/student.delete.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\StudentDelete.js"
+      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.delete.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\StudentDetails.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\student.details.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/StudentFunction/StudentDetails.js",
+      "RelativePath": "js/StudentFunction/student.details.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\StudentDetails.js"
+      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.details.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\StudentIndex.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\student.index.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/StudentFunction/StudentIndex.js",
+      "RelativePath": "js/StudentFunction/student.index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\StudentIndex.js"
+      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.index.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\StudentUpdate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\StudentFunction\\student.update.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
-      "RelativePath": "js/StudentFunction/StudentUpdate.js",
+      "RelativePath": "js/StudentFunction/student.update.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\StudentUpdate.js"
+      "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.update.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PracticeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\wwwroot\\",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
       "BasePath": "_content/PracticeProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

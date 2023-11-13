@@ -9,101 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PracticeProject
 build_property.RootNamespace = PracticeProject
-build_property.ProjectDir = D:\Soft Gallery Tasks\UniversityProjectWithAJAX\PracticeProject\
+build_property.ProjectDir = D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Soft Gallery Tasks\UniversityProjectWithAJAX\PracticeProject
+build_property.MSBuildProjectDirectory = D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Courses/Create.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Courses/Delete.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Courses/Details.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Courses/Edit.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Courses/Index.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Enrollments/Create.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Courses/PartialViews/CourseListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xQYXJ0aWFsVmlld3NcQ291cnNlTGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Enrollments/Delete.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Enrollments/Details.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Enrollments/Edit.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Enrollments/Index.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Home/Index.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Enrollments/PartialViews/EnrollmentListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudHNcUGFydGlhbFZpZXdzXEVucm9sbG1lbnRMaXN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Home/Privacy.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Shared/Error.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/Create.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/Delete.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/Details.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/Edit.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/Index.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Students/PartialViews/StudentList.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/PartialViews/StudentDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcUGFydGlhbFZpZXdzXFN0dWRlbnREZXRhaWxzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Students/PartialViews/StudentList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcUGFydGlhbFZpZXdzXFN0dWRlbnRMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/_ViewImports.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/_ViewStart.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Soft Gallery Tasks/UniversityProjectWithAJAX/PracticeProject/Views/Shared/_Layout.cshtml]
+[D:/Soft Gallery Tasks/ContosoUniversityAJAX/PracticeProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rdwoav9z1e

@@ -41,6 +41,12 @@ namespace PracticeProject.Controllers
             var studentModel = ServiceConfigureExtensions.ToStudentModel(student);
             return PartialView("Details", studentModel);
         }
+        public async Task<IActionResult> GetStudentDetails(int id)
+        {
+            var student = await _studentService.GetStudentByID(id);
+            var studentModel = ServiceConfigureExtensions.ToStudentModel(student);
+            return PartialView("~/Views/Students/PartialViews/StudentDetailsPartial.cshtml", studentModel);
+        }
         //GET: Students/Create
         public IActionResult Create()
         {

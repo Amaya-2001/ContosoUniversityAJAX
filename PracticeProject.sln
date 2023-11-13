@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAcessLayer", "DataAcessLayer\DataAcessLayer.csproj", "{DF3F3479-2D12-41F1-AB44-C1A528CE5B68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{C8B49EC1-81D8-4332-8CF6-2EBFEF23ED63}"
+	ProjectSection(SolutionItems) = preProject
+		BusinessLayer\Services\EnrollmentService.cs = BusinessLayer\Services\EnrollmentService.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business", "2.Business", "{CF4BFBFE-330A-4096-A356-6237782BF411}"
 EndProject

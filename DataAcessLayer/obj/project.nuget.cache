@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OXkiXxA0IvbToxyEmRJcJsFsSzB2KdLiEjRZlp17VdD09939TiByzfhthNx/y05OvdAqUJG2l9Ela4O0lklHqw==",
+  "dgSpecHash": "rx8SiHXixL/G2q73nBG94TGTacAR9SoxuNq4LWX9Y9FUhZGzHnc+txmr18PJWDrjOEqeQsHFbSQoyaP9z7sR9A==",
   "success": true,
-  "projectFilePath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
+  "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",

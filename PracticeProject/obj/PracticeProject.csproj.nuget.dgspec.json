@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\PracticeProject.csproj": {}
+    "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj": {}
   },
   "projects": {
-    "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj": {
-                "projectPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj"
+              "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj": {
+                "projectPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj": {
+    "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
+        "projectUniqueName": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
         "projectName": "DataAcessLayer",
-        "projectPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
+        "projectPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\DataAcessLayer.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\DataAcessLayer\\obj\\",
+        "outputPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\DataAcessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\PracticeProject.csproj": {
+    "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\PracticeProject.csproj",
+        "projectUniqueName": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj",
         "projectName": "PracticeProject",
-        "projectPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\PracticeProject.csproj",
+        "projectPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\obj\\",
+        "outputPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,8 +158,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }

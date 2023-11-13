@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dOeTbAjiz9zW8Hae39F/Lmwt72ZrygXlTl1DMSZuMmF7JimxDnl9mSZx4GpFzmLhwKwOG8HbK0TB55cJXsRd/g==",
+  "dgSpecHash": "EUO0vzMOgmqu/nQsDsxf7TGH5P4DkfKnXg3xbcOHkLR7wGbN+nr/oEmRU+nK7Eamu8neqURuDOomWELBmkE7Rg==",
   "success": true,
-  "projectFilePath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

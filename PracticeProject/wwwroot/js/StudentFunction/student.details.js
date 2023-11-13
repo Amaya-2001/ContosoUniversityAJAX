@@ -4,7 +4,7 @@
 
         var id = $('#StudentID').val();
         console.log("id:", id);
-        var url = 'https://localhost:7153/Students/Details/' + id;
+        var url = 'https://localhost:7153/Students/GetStudentDetails/' + id;
 
         $.ajax({
             type: 'GET',
@@ -23,12 +23,12 @@
 
     // Call the function when the document is ready
     getStudentDetails();
-    $(document).on('click', '#btnEdit', function (e) {
-        e.preventDefault();
-        var id = $('#StudentID').val();
-        var url = 'https://localhost:7153/Students/Edit/' + id;
-        window.location.href = url;
-    });
+    //$(document).on('click', '#btnEdit', function (e) {
+    //    e.preventDefault();
+    //    var id = $('#StudentID').val();
+    //    var url = 'https://localhost:7153/Students/Edit/' + id;
+    //    window.location.href = url;
+    //});
 
 });
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dpdp3LhZADmxAAxHo7VTYvh5puDL1WoAk8WrQEhJISBqyd0Vm5ghLGxcHTq1+Wwk3G9LXoisryNsS5kLQ1nO3g==",
+  "dgSpecHash": "eFKu0YFE1UmBfDkOjP5vVemyb443oRb5LCP0ZILZw1BBhJerLRBJVVD+DUalKNbWK0un9PCjj03G9+89D/MT+Q==",
   "success": true,
-  "projectFilePath": "D:\\Soft Gallery Tasks\\UniversityProjectWithAJAX\\PracticeProject\\PracticeProject.csproj",
+  "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
