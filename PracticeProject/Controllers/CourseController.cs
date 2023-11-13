@@ -36,15 +36,21 @@ namespace PracticeProject.Controllers
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            return View(id);
+
+        }
+        public async Task<IActionResult> GetCourseDetails(int? id)
+        {
             if (id == null)
             {
                 return NotFound();
             }
             var course = await _courseService.GetCourseByID(id.Value);
             var courseModel = CourseServiceCfg.ToGetCourse(course);
-            return View(courseModel);
+            return PartialView("~/Views/Courses/PartialViews/CourseDetailsPartial.cshtml", courseModel);
 
         }
+
         // GET: Students/Create
         public IActionResult Create()
         {

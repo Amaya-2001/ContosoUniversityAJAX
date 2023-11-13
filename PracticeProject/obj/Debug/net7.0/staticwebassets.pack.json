@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\CourseFunction\\course.delete.js"
     },
     {
+      "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.details.js",
+      "PackagePath": "staticwebassets\\js\\CourseFunction\\course.details.js"
+    },
+    {
       "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\CourseFunction\\course.index.js",
       "PackagePath": "staticwebassets\\js\\CourseFunction\\course.index.js"
     },
