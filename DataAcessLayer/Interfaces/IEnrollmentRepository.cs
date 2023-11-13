@@ -9,8 +9,8 @@ namespace DataAcessLayer.Interfaces
         void InsertEnrollment(Enrollment enrollment);
         void DeleteEnrollment(int enrollmentId);
         void UpdateEnrollment(Enrollment enrollment);
-        Task<IEnumerable<int>> GetCourses();
-        Task<IEnumerable<int>> GetStudentIDs();
+        Task<List<Course>> GetCourses();
+        Task<List<Student>> GetStudentIDs();
         Task<Enrollment> GetExistEnrollmentByID(int id);
         void Save();
 

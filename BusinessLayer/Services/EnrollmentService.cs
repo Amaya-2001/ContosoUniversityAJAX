@@ -57,11 +57,11 @@ namespace BusinessLayer.Services
               _enrollmentRepository.UpdateEnrollment(enrollment);
         }
 
-        public async Task<IEnumerable<int>> GetCourses()
+        public async Task<List<Course>> GetCourses()
         {
             return  await _enrollmentRepository.GetCourses();
         }
-        public async Task<IEnumerable<int>> GetStudentIDs()
+        public async Task<List<Student>> GetStudentIDs()
         {
             return await _enrollmentRepository.GetStudentIDs();
         }

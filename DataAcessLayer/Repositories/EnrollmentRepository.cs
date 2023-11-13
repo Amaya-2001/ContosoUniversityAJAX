@@ -59,15 +59,18 @@ namespace DataAcessLayer.Repositories
         {
             _context.Enrollments.Update(enrollment);
         }
-        public async  Task<IEnumerable<int>> GetCourses()
+        public async  Task<List<Course>> GetCourses()
         {
-            var courseIds = await _context.Courses.Select(course => course.CourseID).ToListAsync();
-            return courseIds;
+            //var courseIds = await _context.Courses.Select(course => course.CourseID).ToListAsync();
+            //return courseIds;
+            return await _context.Courses.ToListAsync();
         }
-        public async Task<IEnumerable<int>> GetStudentIDs()
+
+        public async Task<List<Student>> GetStudentIDs()
         {
-            var studentIds = await _context.Students.Select(student => student.ID).ToListAsync();
-            return studentIds;
+            //var studentIds = await _context.Students.Select(student => student.ID).ToListAsync();
+            //return studentIds;
+            return await _context.Students.ToListAsync();
         }
 
     }

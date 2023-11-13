@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PracticeProject.Data;
 using PracticeProject.Models;
-using PracticeProject.Entities;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BusinessLayer.Services;
 using PracticeProject.Helpers;
@@ -18,6 +17,15 @@ namespace PracticeProject.Controllers
         public EnrollmentsController(IEnrollmentService enrollmentService)
         {
             _enrollmentService = enrollmentService;
+        }
+        private SelectList CreateSelectList<T>(IEnumerable<T> items, Func<T, string> valueSelector, Func<T, string> textSelector)
+        {
+            var SelectList = new SelectList(items.Select(item => new SelectListItem
+            {
+                Value = valueSelector(item),
+                Text = $"{valueSelector(item)}.{textSelector(item)}"
+            }), "Value", "Text");
+            return SelectList;
         }
         public async Task<IActionResult> Index()
         {
@@ -51,11 +59,19 @@ namespace PracticeProject.Controllers
         //GET: Enrollments/Create
         public async Task<ViewResult> Create()
         {
-            ViewData["CourseID"] = new SelectList(await _enrollmentService.GetCourses());
-            ViewData["StudentID"] = new SelectList(await _enrollmentService.GetStudentIDs());
+            var courses = await _enrollmentService.GetCourses();
+            var students = await _enrollmentService.GetStudentIDs();
+            var gradeValues = Enum.GetValues(typeof(Grade)).Cast<int>();
+
+            ViewData["Course"] = CreateSelectList(courses, c => c.CourseID.ToString(), c => c.Title);
+            ViewData["Student"] = CreateSelectList(students, s=>s.ID.ToString(), s=>s.LastName);
+            ViewData["Grade"] = CreateSelectList(gradeValues, value => value.ToString(), value => Enum.GetName(typeof(Grade), value));
 
             return View();
         }
+
+       
+
         //Post Students/Create
         [HttpPost, ActionName("Create")]
         //[ValidateAntiForgeryToken]

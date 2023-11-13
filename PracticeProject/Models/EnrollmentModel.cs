@@ -16,6 +16,7 @@ namespace PracticeProject.Models
         public int StudentID { get; set; }
         public Grade? Grade { get; set; }
 
+        public string? DisplayGrade => Grade?.ToString();
         public CourseModel? Course { get; set; }
         public StudentModel? Student { get; set; }
     }
