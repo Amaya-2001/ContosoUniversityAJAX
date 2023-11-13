@@ -117,8 +117,15 @@ namespace PracticeProject.Controllers
 
             var enrollmentModel = EnrollmentServicesCfg.ToEnrollmentDetails(enrollment);
 
-            ViewData["CourseID"] = new SelectList(await _enrollmentService.GetCourses());
-            ViewData["StudentID"] = new SelectList(await _enrollmentService.GetStudentIDs());
+
+            var courses = await _enrollmentService.GetCourses();
+            var students = await _enrollmentService.GetStudentIDs();
+            var gradeValues = Enum.GetValues(typeof(Grade)).Cast<int>();
+
+            ViewData["Course"] = CreateSelectList(courses, c => c.CourseID.ToString(), c => c.Title);
+            ViewData["Student"] = CreateSelectList(students, s => s.ID.ToString(), s => s.LastName);
+            ViewData["Grade"] = CreateSelectList(gradeValues, value => value.ToString(), value => Enum.GetName(typeof(Grade), value));
+
 
             return View(enrollmentModel);
         }
