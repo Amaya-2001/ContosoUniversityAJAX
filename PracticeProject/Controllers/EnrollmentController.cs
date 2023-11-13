@@ -33,6 +33,11 @@ namespace PracticeProject.Controllers
         //Get: Enrollment/Details
         public async Task<IActionResult> Details(int? id)
         {
+           
+            return View(id);
+        }
+        public async Task<IActionResult> GetEnrollmentDetails(int? id)
+        {
             if (id == null)
             {
                 return NotFound();
@@ -40,7 +45,7 @@ namespace PracticeProject.Controllers
 
             var enrollment = await _enrollmentService.GetEnrollmentByID(id.Value);
             var enrollmentModel = EnrollmentServicesCfg.ToEnrollmentDetails(enrollment);
-            return View(enrollmentModel);
+            return PartialView("~/Views/Enrollments/PartialViews/EnrollmentDetailsPartial.cshtml", enrollmentModel);
         }
 
         //GET: Enrollments/Create

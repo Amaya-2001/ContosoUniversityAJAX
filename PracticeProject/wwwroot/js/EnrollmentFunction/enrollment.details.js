@@ -1,29 +1,28 @@
 ﻿$(document).ready(function () {
-    $(document).on('click', '#btnCreate', function (e) {
-        console.log("Button clicked");
 
-        var formData = $('#formCreate').serialize();
-        console.log("formData");
-        //alert("loading");
-
-        $.ajax({
-            type: 'POST',
-            url: 'https://localhost:7153/Enrollments/Create',
-            data: formData,
-            success: function (response) {
-                console.log(response);
-                if (response.success) {
-                    window.location.href = 'https://localhost:7153/Enrollments/Index';
-
-                }
-
-            }, error: function (error) {
-                // Handle the error, e.g., display an error message.               
-                console.error('Error:', error);
-            }
-
-        });
-    });
+    // Call the function when the document is ready
+    getEnrollmentDetails();
 
 });
+function getEnrollmentDetails() {
+    
+    var id = $('#EnrollmentID').val();
+    console.log("id:", id);
+    var url = 'https://localhost:7153/Enrollments/GetEnrollmentDetails/' + id;
+
+    $.ajax({
+        type: 'GET',
+        url: url,
+        dataType: 'html',
+        success: function (data) {
+
+            $('#enrollmentDetailsContainer').html(data);
+            console.log("Enrollment details loaded successfully");
+        },
+        error: function (error) {
+            console.error('Error:', error);
+        }
+    });
+}
+
 

@@ -1,4 +1,4 @@
-﻿@model PracticeProject.Models.EnrollmentModel
+﻿@model int?
 
 @{
     ViewData["Title"] = "Details";
@@ -9,34 +9,14 @@
 <div>
     <h4>Enrollments</h4>
     <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.EnrollmentID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EnrollmentID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CourseID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CourseID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.StudentID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.StudentID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Grade)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Grade)
-        </dd>
-    </dl>
+    <input type="hidden" value=@Model id="EnrollmentID" />
+    <div id="enrollmentDetailsContainer"></div>
+   
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.EnrollmentID">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+
+@* Refer to the js file to call the function *@
+<script src="~/js/EnrollmentFunction/enrollment.details.js"></script>
