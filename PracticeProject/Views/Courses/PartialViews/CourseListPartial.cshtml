@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<PracticeProject.Models.CourseModel>
 
-<table class="table">
+<table class="table" id="courseTable">
     <thead>
         <tr>
             <th>
@@ -39,3 +39,12 @@
         }
     </tbody>
 </table>
+
+@* added pagination, sorting, filtering *@
+<link href="~/lib/DataTables/datatables.min.css" rel="stylesheet">
+<script src="~/lib/DataTables/datatables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#courseTable').DataTable();
+    });
+</script>

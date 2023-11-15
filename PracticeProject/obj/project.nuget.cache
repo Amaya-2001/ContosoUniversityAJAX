@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eFKu0YFE1UmBfDkOjP5vVemyb443oRb5LCP0ZILZw1BBhJerLRBJVVD+DUalKNbWK0un9PCjj03G9+89D/MT+Q==",
+  "dgSpecHash": "tk3iXLFaPC+Mbq1f7DL6g0B4rhQBrhadH0a8/zWJQ8ZqduSjKjGQAbtigRUOolTnMk4RyLIAQutZzkQfvMvcnA==",
   "success": true,
   "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\PracticeProject.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\datatables.net\\1.12.1\\datatables.net.1.12.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\datatables.net-dt\\1.13.7\\datatables.net-dt.1.13.7.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -58,6 +60,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.12\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

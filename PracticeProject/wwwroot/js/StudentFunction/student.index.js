@@ -3,12 +3,7 @@
 
     // Call the function when the document is ready
     loadStudentList();
-
-    //$(document).on('click', '#btnCreate', function (e) {
-    //    e.preventDefault();
-    //    var url = 'https://localhost:7153/Students/Create';
-    //    loadStudentForm(url, null); 
-    //});
+    
 
 
 });
@@ -23,6 +18,7 @@ function loadStudentList() {
         success: function (data) {
 
             $('#studentList').html(data);
+            
         },
         error: function (error) {
             console.error('Error:', error);

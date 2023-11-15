@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<PracticeProject.Models.StudentModel>
 
-<table class="table">
+<table class="table" id="studentTable">
     <thead>
         <tr>
             <th>
@@ -45,3 +45,26 @@
     </tbody>
 
 </table>
+
+@* added pagination, sorting, filtering *@
+<link href="~/lib/DataTables/datatables.min.css" rel="stylesheet">
+<script src="~/lib/DataTables/datatables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#studentTable').DataTable({
+            'columns':[
+                {data:'ID'},
+                {data: 'LastName'},
+                {data: 'FirstMidName'},
+                { data: 'EnrollmentDate' },
+                {data: ''}
+            ],
+            'colimnsDefs': [{
+                'targets':[4],
+                'orderable':false,
+            }]
+            
+        });
+        console.log(columns);
+    });
+</script>
