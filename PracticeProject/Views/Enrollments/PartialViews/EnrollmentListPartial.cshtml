@@ -50,6 +50,19 @@
 <script src="~/lib/DataTables/datatables.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#enrollmentTable').DataTable();
+        $('#enrollmentTable').DataTable({
+            'columns':[
+                {data:'EnrollmentID'},
+                { data: 'CourseID'},
+                { data: 'StudentID'},
+                { data: 'Grade'},
+                { data: ''}
+
+            ],
+            'columnDefs': [{
+                'targets': [3, 4],
+                'orderable': false,
+            }]
+        });
     });
 </script>

@@ -45,6 +45,17 @@
 <script src="~/lib/DataTables/datatables.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#courseTable').DataTable();
+        $('#courseTable').DataTable({
+            'columns':[
+                {data:'CourseID'},
+                {data:'Title'},
+                {data:'Credits'},
+                {data:''}
+            ],
+            'columnDefs': [{
+                'targets':[2,3],
+                'orderable':false,
+            }]
+        });
     });
 </script>
