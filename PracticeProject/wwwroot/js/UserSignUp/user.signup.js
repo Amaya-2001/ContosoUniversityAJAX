@@ -1,6 +1,5 @@
 ﻿$(document).ready(function () {
-
-    $(document).on('click', '#btnSignUp', function (e) {
+$(document).on('click', '#btnSignUp', function (e) {
         console.log("Button clicked");
 
         var formData = $('#signUpForm').serialize();
@@ -9,12 +8,13 @@
 
         $.ajax({
             type: 'POST',
-            url: 'https://localhost:7153/Users/Create',
+            url: 'https://localhost:7153/Users/SignUpPost',
             data: formData,
             success: function (response) {
                 console.log(response);
                 if (response.success) {
-                    window.location.href = 'https://localhost:7153/Users/Index';
+                    console.log("user saved sucussFully!");
+                    window.location.href = "https://localhost:7153/Users/Login"
 
                 }
 
@@ -27,3 +27,4 @@
     });
 
 });
+

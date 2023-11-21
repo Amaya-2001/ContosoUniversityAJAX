@@ -27,8 +27,7 @@ namespace PracticeProject.Data
             modelBuilder.Entity<Student>().ToTable("Student");
             modelBuilder.Entity<UserSignUp>().ToTable("User");
 
-            modelBuilder.Entity<UserSignUp>().HasNoKey();
-
+            
 
             modelBuilder.Entity<Enrollment>()
                 .HasOne(e => e.Course)

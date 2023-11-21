@@ -1,7 +1,7 @@
 ﻿@model PracticeProject.Models.UserSignUpModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "SignUp";
 }
 
 <h2>SignUp</h2>
@@ -39,4 +39,4 @@
     <a asp-action="Login">Already have an account? Log in here.</a>
 </p>
 
-<script src="~js/UserSignUp/user.signup.js"></script>
+<script src="@Url.Content("~/js/UserSignUp/user.signup.js")"></script>

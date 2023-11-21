@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    
+    console.log("Hi");
     $(document).on('click', '#btnCreate', function (e) {
         console.log("Button clicked");
         

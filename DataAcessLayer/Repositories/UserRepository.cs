@@ -21,6 +21,7 @@ namespace DataAcessLayer.Repositories
         public void InsertUser(UserSignUp userSignUp)
         {
             _context.Users.Add(userSignUp);
+            
         }
 
         public void Save()

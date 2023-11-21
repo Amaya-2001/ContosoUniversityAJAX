@@ -15,29 +15,43 @@ namespace PracticeProject.Controllers
             _userService = userService;
         }
         //Get: user registration
-       
-        public ActionResult Index()
+        public IActionResult SignUp()
         {
-            Console.WriteLine("HI");
-            return View();
+            // You can customize this to pass any necessary data to your view
+            
+            return View("SignUp");
         }
-        public JsonResult Create([Bind("UserName,Email,Password")] UserSignUpModel signupModel)
+
+        [HttpPost,ActionName("SignUpPost")]
+        public JsonResult SignUpPost([Bind("UserID,Email,UserName,Password")] UserSignUpModel signupModel)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
                     var user = MappingUserApplication.ToCreateUser(signupModel);
+                    Console.Write(user.UserID);
                     _userService.InsertUser(user);
                     _userService.Save();
+
+                    Console.WriteLine("User saved successfully!");
 
                 }
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError("", "Student sign up not successfully!");
+                Console.WriteLine($"Error: {ex.Message}");
+                ModelState.AddModelError("", "Student sign up not successful!");
             }
             return Json(new { Success = true });
+        }
+
+        //Get: user login page
+        public IActionResult Login()
+        {
+            // You can customize this to pass any necessary data to your view
+
+            return View("Login");
         }
 
     }

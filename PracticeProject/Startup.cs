@@ -27,10 +27,12 @@ namespace PracticeProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SchoolContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("PracticeProject"))); // Specify migrations assembly here
             services.AddDatabaseDeveloperPageExceptionFilter();
+        
 
-            services.AddAutoMapper(typeof(ApplicationMapper));
+        services.AddAutoMapper(typeof(ApplicationMapper));
             //register the repository
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<IStudentService, StudentService>();
