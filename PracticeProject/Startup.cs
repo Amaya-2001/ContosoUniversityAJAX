@@ -38,6 +38,8 @@ namespace PracticeProject
             services.AddScoped<ICourseService,CourseService>();
             services.AddScoped<IEnrollmentService, EnrollmentService>();
             services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
 
             services.AddControllersWithViews();
 

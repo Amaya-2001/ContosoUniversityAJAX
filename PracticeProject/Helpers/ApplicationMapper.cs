@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DataAcessLayer.Entities;
 using PracticeProject.Entities;
 using PracticeProject.Models;
 
@@ -16,6 +17,7 @@ namespace PracticeProject.Helpers
             CreateMap<Student,StudentEditModel>().ReverseMap();
             CreateMap<Course, CourseModel>().ReverseMap();
             CreateMap<Enrollment, EnrollmentModel>().ReverseMap();
+            CreateMap<UserSignUp, UserSignUpModel>().ReverseMap();
         }
     }
 }

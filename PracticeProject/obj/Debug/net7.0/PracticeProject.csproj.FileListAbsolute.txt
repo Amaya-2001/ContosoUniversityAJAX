@@ -782,9 +782,6 @@ D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\Pra
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.MvcApplicationPartsAssemblyInfo.cache
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.RazorAssemblyInfo.cache
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.RazorAssemblyInfo.cs
-D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.dll
-D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\refint\PracticeProject.dll
-D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.pdb
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\bin\Debug\net7.0\appsettings.Development.json
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\bin\Debug\net7.0\appsettings.json
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\bin\Debug\net7.0\PracticeProject.staticwebassets.runtime.json
@@ -1032,5 +1029,8 @@ D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\sco
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\scopedcss\bundle\PracticeProject.styles.css
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\scopedcss\projectbundle\PracticeProject.bundle.scp.css
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.csproj.CopyComplete
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\refint\PracticeProject.dll
+D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.pdb
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\PracticeProject.genruntimeconfig.cache
 D:\Soft Gallery Tasks\ContosoUniversityAJAX\PracticeProject\obj\Debug\net7.0\ref\PracticeProject.dll

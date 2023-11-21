@@ -21,6 +21,7 @@ namespace PracticeProject.Controllers
         }
         public async Task<IActionResult> Index()
         {
+            Console.WriteLine("Hello");
             
             return View();
         }

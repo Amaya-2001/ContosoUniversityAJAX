@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DataAcessLayer.Entities;
+using Microsoft.EntityFrameworkCore;
 using PracticeProject.Entities;
 
 namespace PracticeProject.Data
@@ -17,11 +18,17 @@ namespace PracticeProject.Data
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Student> Students { get; set; }
 
+        public DbSet<UserSignUp> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Course>().ToTable("Course");
             modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
             modelBuilder.Entity<Student>().ToTable("Student");
+            modelBuilder.Entity<UserSignUp>().ToTable("User");
+
+            modelBuilder.Entity<UserSignUp>().HasNoKey();
+
 
             modelBuilder.Entity<Enrollment>()
                 .HasOne(e => e.Course)

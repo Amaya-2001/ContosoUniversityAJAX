@@ -26,7 +26,7 @@ namespace BusinessLayer.Repositories
 
         public async Task<Student> GetStudentByID(int studentId)
         {
-            //return  _context.Students.Find(studentId);
+            
             var studentEntity = await _context.Students
                      .Include(s => s.Enrollments)
                  .ThenInclude(e => e.Course)

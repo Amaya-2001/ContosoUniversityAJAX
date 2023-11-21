@@ -1,4 +1,5 @@
-﻿using PracticeProject.Data;
+﻿using DataAcessLayer.Entities;
+using PracticeProject.Data;
 using PracticeProject.Entities;
 using System;
 using System.Linq;
@@ -71,6 +72,7 @@ namespace PracticeProject.Data
                 context.Enrollments.Add(e);
             }
             context.SaveChanges();
+            
         }
     }
 }
