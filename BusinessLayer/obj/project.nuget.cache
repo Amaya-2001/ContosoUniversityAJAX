@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3IrpRh2UV21ZVzjj8hFQLXfS81vIpHXXTV4MytttriWiwMtoBfXOUxqwonH0DC6NzolCW9NBuJS7gpqgrkJnGg==",
+  "dgSpecHash": "dKM353G6NhhKzDQU9wk1VeV/y9mujdINwomTEUdEwI4wxB+bVhcxZxM5kZy6OZqg3adbbI6jBwBnhiA9TxfJQA==",
   "success": true,
   "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512"
   ],
   "logs": []
 }
