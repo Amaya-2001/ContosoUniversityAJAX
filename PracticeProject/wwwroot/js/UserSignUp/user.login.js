@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    $(document).on('click', '#btnLogin', function (e) {
+    $(document).on('submit', '#btnLogin', function (e) {
         e.preventDefault(); // Prevent the default form submission behavior
         console.log("Button clicked");
 
@@ -11,11 +11,12 @@
             data: formData,
             
             success: function (response) {
-                console.log('formData', formData);
+               
 
                 if (response.success) {
 
-                    console.log(response.success);
+                    console.log(response.token);
+                    localStorage.setItem('jwt', response.token);
                     //window.location.href = "https://localhost:7153/Users/DashBoard"
                 }
 

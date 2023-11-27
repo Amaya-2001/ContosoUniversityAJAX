@@ -27,50 +27,49 @@ namespace PracticeProject
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly("PracticeProject"))); // Specify migrations assembly here
             services.AddDatabaseDeveloperPageExceptionFilter();
-        
 
-        services.AddAutoMapper(typeof(ApplicationMapper));
+
+            services.AddAutoMapper(typeof(ApplicationMapper));
 
             // Add IConfiguration to dependency injection
             // Add configuration
-            
+
 
             //register the repository
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<IStudentService, StudentService>();
-            services.AddScoped<ICourseRepository,CourseRepository>();
-            services.AddScoped<ICourseService,CourseService>();
+            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<ICourseService, CourseService>();
             services.AddScoped<IEnrollmentService, EnrollmentService>();
             services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-            
+
             services.AddScoped<IUserService, UserService>();
 
             services.AddControllersWithViews();
-            ConfigureJwtAuthentication(services);
 
 
-        }
-        public void ConfigureJwtAuthentication(IServiceCollection services)
-        {
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = Configuration["Jwt:Issuer"],
-            ValidAudience = Configuration["Jwt:Issuer"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
-        };
-    });
             services.AddMvc();
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            services.AddAuthentication(opt =>
+            {
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+           .AddJwtBearer(options =>
+           {
+               options.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+                   ValidIssuer = "http://localhost:7153",
+                   ValidAudience = "https://localhost:7153",
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BlSc9ksNdSB8ecvT4Tuf1Wa4paFgkXEcdhstjarqHlk="))
+               };
+           });
+}
+// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             

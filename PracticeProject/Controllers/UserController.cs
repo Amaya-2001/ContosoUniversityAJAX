@@ -91,7 +91,21 @@ namespace PracticeProject.Controllers
                     // Use a secure comparison method
                     if (SecureStringEquals(hashedPassword, storedUser.Password))
                     {
-                        return Json(new { Success = true });
+                        var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BlSc9ksNdSB8ecvT4Tuf1Wa4paFgkXEcdhstjarqHlk="));
+                        var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+                        var tokenOptions = new JwtSecurityToken(
+                            issuer: "http://localhost:7153",
+                            audience: "https://localhost:7153",
+                            claims: new List<Claim>() {
+                        new Claim("role","admin"),new Claim("name",storedUser.UserName)},
+                            expires: DateTime.Now.AddMinutes(5),
+                            signingCredentials: signinCredentials
+                        );
+                        var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+                        Console.WriteLine("tokenString" + tokenString );
+                            
+
+                        return Json(new { success = true, token = tokenString, message = "Login successful" });
                     }
                 }
                 catch (Exception ex)
