@@ -72,6 +72,11 @@ namespace PracticeProject.Controllers
                 try
                 {
                     var storedUser = await _userService.GetUserByEmail(userLoginModel.Email);
+                    if (storedUser == null)
+                    {
+                        // User not found
+                        return Json(new { success = false, error = "User not found" });
+                    }
                     byte[] salt = Convert.FromBase64String(storedUser.PasswordSalt);
 
                     string hashedPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
@@ -81,8 +86,7 @@ namespace PracticeProject.Controllers
                         iterationCount: 100000,
                         numBytesRequested: 256 / 8));
 
-                    Console.WriteLine("Entered hashed password: " + hashedPassword);
-                    Console.WriteLine("Stored hashed password: " + storedUser.Password);
+                    
 
                     // Use a secure comparison method
                     if (SecureStringEquals(hashedPassword, storedUser.Password))
