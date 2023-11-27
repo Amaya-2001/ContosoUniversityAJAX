@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dKM353G6NhhKzDQU9wk1VeV/y9mujdINwomTEUdEwI4wxB+bVhcxZxM5kZy6OZqg3adbbI6jBwBnhiA9TxfJQA==",
+  "dgSpecHash": "ZDBgopM+6qcc62i3Q71Ty8DLgu7sR81j+lBvUMyD+ZDzgclwlR1D6HfpQWpznNw728j85GWPq8/PBtG7gsgS7w==",
   "success": true,
   "projectFilePath": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.14\\microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.14\\microsoft.aspnetcore.cryptography.keyderivation.7.0.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
@@ -19,7 +20,14 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

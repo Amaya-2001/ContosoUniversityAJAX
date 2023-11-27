@@ -10,6 +10,9 @@ namespace DataAcessLayer.Interfaces
     public interface IUserRepository
     {
         void InsertUser(UserSignUp user);
+        Task<UserSignUp> GetUserByEmailAsync(string Email);
+
+
         void Save();
     }
 }

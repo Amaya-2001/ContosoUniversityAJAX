@@ -10,6 +10,10 @@ namespace BusinessLayer.Services
     public interface IUserService
     {
         void InsertUser(UserSignUp userSignUp);
+        //Task<string> AuthenticateUserAndGetToken(UserSignUp loginUser);
+        //string GenerateToken(UserSignUp user);
+        Task<UserSignUp> GetUserByEmail(string Email);
         void Save();
+        
     }
 }

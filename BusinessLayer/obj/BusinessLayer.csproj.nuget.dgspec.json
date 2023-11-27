@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -51,6 +55,10 @@
             "Portable.BouncyCastle": {
               "target": "Package",
               "version": "[1.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -109,6 +117,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -126,6 +138,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [

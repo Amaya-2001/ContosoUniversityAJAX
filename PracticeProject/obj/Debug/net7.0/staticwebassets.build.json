@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vm8x/95dayy0cuOkcjnLf6fKcEBEV7zkpT75jL/1DAQ=",
+  "Hash": "LBOaVWfhjYOWrrM/kWV+pPzI2PZk6ZZ7Ro6Uqh44sWE=",
   "Source": "PracticeProject",
   "BasePath": "_content/PracticeProject",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.update.js"
+    },
+    {
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.login.js",
+      "SourceId": "PracticeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
+      "BasePath": "_content/PracticeProject",
+      "RelativePath": "js/UserSignUp/user.login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserSignUp\\user.login.js"
     },
     {
       "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.signup.js",

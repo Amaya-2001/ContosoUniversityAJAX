@@ -1,17 +1,14 @@
 ﻿using PracticeProject.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using PracticeProject.Helpers;
-using AutoMapper;
 using BusinessLayer.Services;
 using BusinessLayer.Interfaces;
 using BusinessLayer.Repositories;
 using DataAcessLayer.Interfaces;
 using DataAcessLayer.Repositories;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace PracticeProject
 {
@@ -33,6 +30,11 @@ namespace PracticeProject
         
 
         services.AddAutoMapper(typeof(ApplicationMapper));
+
+            // Add IConfiguration to dependency injection
+            // Add configuration
+            
+
             //register the repository
             services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<IStudentService, StudentService>();
@@ -41,14 +43,38 @@ namespace PracticeProject
             services.AddScoped<IEnrollmentService, EnrollmentService>();
             services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            
             services.AddScoped<IUserService, UserService>();
 
             services.AddControllersWithViews();
+            ConfigureJwtAuthentication(services);
+
 
         }
+        public void ConfigureJwtAuthentication(IServiceCollection services)
+        {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = Configuration["Jwt:Issuer"],
+            ValidAudience = Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+        };
+    });
+            services.AddMvc();
+        }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -63,6 +89,7 @@ namespace PracticeProject
             //section for configuring middleware
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>

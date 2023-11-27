@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PracticeProject",
+    "\\PracticeProject\\Controllers",
+    "\\PracticeProject\\Migrations",
+    "\\PracticeProject\\Models",
+    "\\PracticeProject\\Views",
+    "\\PracticeProject\\Views\\Shared",
+    "\\PracticeProject\\Views\\Students",
+    "\\PracticeProject\\Views\\Students\\PartialViews",
+    "\\PracticeProject\\Views\\Users"
+  ],
+  "SelectedNode": "\\PracticeProject\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}

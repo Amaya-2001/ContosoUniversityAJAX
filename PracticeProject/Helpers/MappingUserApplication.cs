@@ -6,19 +6,28 @@ namespace PracticeProject.Helpers
 {
     public static class MappingUserApplication
     {
-        public static IMapper _mapper;
-        static MappingUserApplication()
+        private static IMapper GetMapper()
         {
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile<ApplicationMapper>();
             });
 
-            _mapper = config.CreateMapper();
+            return config.CreateMapper();
         }
+
         public static UserSignUp ToCreateUser(UserSignUpModel signUpModel)
         {
-            return _mapper.Map<UserSignUp>(signUpModel);
+            var mapper = GetMapper();
+            return mapper.Map<UserSignUp>(signUpModel);
+        }
+
+        public static UserSignUp ToGetLoginUser(UserLoginModel userLoginModel)
+        {
+           
+            var mapper = GetMapper();
+            return mapper.Map<UserSignUp>(userLoginModel);
+            
         }
     }
 }
