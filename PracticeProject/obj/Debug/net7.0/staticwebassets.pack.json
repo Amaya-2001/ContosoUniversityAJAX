@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\js\\StudentFunction\\student.update.js"
     },
     {
+      "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.dashboard.js",
+      "PackagePath": "staticwebassets\\js\\UserSignUp\\user.dashboard.js"
+    },
+    {
       "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.login.js",
       "PackagePath": "staticwebassets\\js\\UserSignUp\\user.login.js"
     },

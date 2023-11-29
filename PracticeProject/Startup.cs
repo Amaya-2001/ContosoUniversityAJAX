@@ -9,6 +9,8 @@ using DataAcessLayer.Repositories;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace PracticeProject
 {
@@ -28,6 +30,7 @@ namespace PracticeProject
                     b => b.MigrationsAssembly("PracticeProject"))); // Specify migrations assembly here
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+            services.AddControllersWithViews();
 
             services.AddAutoMapper(typeof(ApplicationMapper));
 
@@ -46,7 +49,11 @@ namespace PracticeProject
 
             services.AddScoped<IUserService, UserService>();
 
-            services.AddControllersWithViews();
+            services.AddCors(options => options.AddDefaultPolicy(
+
+               builder => builder.WithOrigins("https://localhost:7153").AllowAnyMethod().AllowAnyHeader()));
+
+            
 
 
             services.AddMvc();
@@ -63,7 +70,7 @@ namespace PracticeProject
                    ValidateAudience = true,
                    ValidateLifetime = true,
                    ValidateIssuerSigningKey = true,
-                   ValidIssuer = "http://localhost:7153",
+                   ValidIssuer = "https://localhost:7153",
                    ValidAudience = "https://localhost:7153",
                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BlSc9ksNdSB8ecvT4Tuf1Wa4paFgkXEcdhstjarqHlk="))
                };
@@ -88,9 +95,15 @@ namespace PracticeProject
             //section for configuring middleware
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthentication();
+
             app.UseRouting();
+
+            app.UseCors();
+
+            app.UseAuthentication();
+           
             app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

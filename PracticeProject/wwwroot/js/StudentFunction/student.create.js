@@ -1,16 +1,19 @@
 ﻿$(document).ready(function () {
     console.log("Hi");
     $(document).on('click', '#btnCreate', function (e) {
-        console.log("Button clicked");
-        
+       
         var formData = $('#formCreate').serialize();
-        console.log("formData");
-        //alert("loading");
+        var jwtToken = localStorage.getItem("token");
+        var headers = { Authorization: `Bearer ${jwtToken}` };
+        console.log("jwtToken", jwtToken);
+        console.log("headers", headers);
+       
         
         $.ajax({
             type: 'POST',
             url: 'https://localhost:7153/Students/Create',
             data: formData,
+            headers: headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {

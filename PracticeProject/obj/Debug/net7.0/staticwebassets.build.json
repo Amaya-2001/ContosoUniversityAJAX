@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LBOaVWfhjYOWrrM/kWV+pPzI2PZk6ZZ7Ro6Uqh44sWE=",
+  "Hash": "NwPpCbH2etffzQGmWFSCuyhGkAhif/i1RN1S8ATYSCg=",
   "Source": "PracticeProject",
   "BasePath": "_content/PracticeProject",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\StudentFunction\\student.update.js"
+    },
+    {
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.dashboard.js",
+      "SourceId": "PracticeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
+      "BasePath": "_content/PracticeProject",
+      "RelativePath": "js/UserSignUp/user.dashboard.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserSignUp\\user.dashboard.js"
     },
     {
       "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\UserSignUp\\user.login.js",

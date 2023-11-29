@@ -4,10 +4,14 @@
 
         var id = $('#ID').val();
         var url = 'https://localhost:7153/Students/Delete/' + id;
+        var jwtToken = localStorage.getItem("token");
+        
+        var headers = { Authorization: `Bearer ${jwtToken}` };
 
         $.ajax({
             type: 'POST',
             url: url,
+            headers:headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {

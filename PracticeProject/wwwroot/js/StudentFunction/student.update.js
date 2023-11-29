@@ -5,11 +5,14 @@
         var id = $('#ID').val();
         var url = 'https://localhost:7153/Students/Edit/' + id;
         var formData = $('#formUpdate').serialize();
+        var jwtToken = localStorage.getItem("token");
+        var headers = { Authorization: `Bearer ${jwtToken}` };
 
         $.ajax({
             type: 'POST',
             url: url,
             data: formData,
+            headers:headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {

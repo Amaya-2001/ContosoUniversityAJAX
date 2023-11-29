@@ -1,6 +1,7 @@
 ﻿using Azure;
 using BusinessLayer.Services;
 using DataAcessLayer.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -14,6 +15,7 @@ using System.Text;
 
 namespace PracticeProject.Controllers
 {
+    [AllowAnonymous]
 
     public class UsersController : Controller
     {
@@ -23,6 +25,7 @@ namespace PracticeProject.Controllers
         {
             _userService = userService;
         }
+        
         //Get: user registration
         public IActionResult SignUp()
         {
@@ -63,8 +66,8 @@ namespace PracticeProject.Controllers
             return View("Login");
         }
         //User login
-        [HttpPost]
-        [ActionName("LoginPost")]
+        [HttpPost,ActionName("LoginPost")]
+        
         public async Task<JsonResult> LoginPost([Bind("Email, Password")] UserLoginModel userLoginModel)
         {
             if (ModelState.IsValid)
@@ -94,11 +97,11 @@ namespace PracticeProject.Controllers
                         var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BlSc9ksNdSB8ecvT4Tuf1Wa4paFgkXEcdhstjarqHlk="));
                         var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
                         var tokenOptions = new JwtSecurityToken(
-                            issuer: "http://localhost:7153",
+                            issuer: "https://localhost:7153",
                             audience: "https://localhost:7153",
                             claims: new List<Claim>() {
                         new Claim("role","admin"),new Claim("name",storedUser.UserName)},
-                            expires: DateTime.Now.AddMinutes(5),
+                            expires: DateTime.Now.AddMinutes(30),
                             signingCredentials: signinCredentials
                         );
                         var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
@@ -136,19 +139,12 @@ namespace PracticeProject.Controllers
             return true;
         }
 
-
-
-
-
-
-
-
-
-        //User dashboard
+        //return to the login user dashboard
+       
         public IActionResult DashBoard()
-    {
-        return View();
-    }
+        {
+            return View();
+        }
 
 
 
