@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BusinessLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PracticeProject.Data;
@@ -10,6 +11,7 @@ using PracticeProject.Models;
 
 namespace PracticeProject.Controllers
 {
+    [Authorize]
     public class CoursesController : Controller
     {
 
@@ -20,12 +22,13 @@ namespace PracticeProject.Controllers
         {
             _courseService = courseService;
         }
-
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View();
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> GetCourseList()
         {
             var courses = await _courseService.GetCourses();
@@ -33,12 +36,14 @@ namespace PracticeProject.Controllers
             return PartialView("~/Views/Courses/PartialViews/CourseListPartial.cshtml", courseModel);
         }
 
+        [AllowAnonymous]
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             return View(id);
 
         }
+        [AllowAnonymous]
         public async Task<IActionResult> GetCourseDetails(int? id)
         {
             if (id == null)
@@ -52,6 +57,7 @@ namespace PracticeProject.Controllers
         }
 
         // GET: Students/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +66,7 @@ namespace PracticeProject.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        
         public async Task<JsonResult> Create([Bind("CourseID,Title,Credits")] CourseModel courseViewModel)
         {
             try
@@ -84,6 +90,7 @@ namespace PracticeProject.Controllers
             return Json(new { success = true });
         }
         // GET: Courses/Edit/5
+        [AllowAnonymous]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -139,12 +146,14 @@ namespace PracticeProject.Controllers
 
         }
         //GET: Courses/DELETE
+        [AllowAnonymous]
         public IActionResult Delete()
         {
             return View();
         }
 
         [HttpGet, ActionName("Delete")]
+        [AllowAnonymous]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

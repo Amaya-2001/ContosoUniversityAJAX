@@ -6,9 +6,11 @@ using PracticeProject.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BusinessLayer.Services;
 using PracticeProject.Helpers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PracticeProject.Controllers
 {
+    [Authorize]
     public class EnrollmentsController : Controller
     {
         private readonly IEnrollmentService _enrollmentService;
@@ -27,10 +29,12 @@ namespace PracticeProject.Controllers
             }), "Value", "Text");
             return SelectList;
         }
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View();
         }
+        [AllowAnonymous]
         public async Task<IActionResult> GetEnrollmentList()
         {
             var enrollments = await _enrollmentService.GetEnrollments();
@@ -39,11 +43,13 @@ namespace PracticeProject.Controllers
         }
 
         //Get: Enrollment/Details
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
            
             return View(id);
         }
+        [AllowAnonymous]
         public async Task<IActionResult> GetEnrollmentDetails(int? id)
         {
             if (id == null)
@@ -57,6 +63,7 @@ namespace PracticeProject.Controllers
         }
 
         //GET: Enrollments/Create
+        [AllowAnonymous]
         public async Task<ViewResult> Create()
         {
             var courses = await _enrollmentService.GetCourses();
@@ -98,7 +105,8 @@ namespace PracticeProject.Controllers
             return Json(new { success = true });
         }
         //GET: Enrollment/Edit
-        
+        [AllowAnonymous]
+
         [HttpGet, ActionName("Edit")]
 
         public async Task<IActionResult> Edit(int? id)
@@ -159,6 +167,7 @@ namespace PracticeProject.Controllers
         }
         // GET: Enrollments/Delete/5
         [HttpGet, ActionName("Delete")]
+        [AllowAnonymous]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

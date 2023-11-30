@@ -3,13 +3,14 @@
         console.log("Button clicked");
 
         var formData = $('#formCreate').serialize();
-        console.log("formData");
-        //alert("loading");
+        var jwtToken = localStorage.getItem("token");
+        var headers = { Authorization: `Bearer ${jwtToken}` };
 
         $.ajax({
             type: 'POST',
             url: 'https://localhost:7153/Courses/Create',
             data: formData,
+            headers: headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {

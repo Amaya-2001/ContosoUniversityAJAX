@@ -4,10 +4,12 @@
 
         var id = $('#CourseID').val();
         var url = 'https://localhost:7153/Courses/Delete/' + id;
-
+        var jwtToken = localStorage.getItem("token");
+        var headers = { Authorization: `Bearer ${jwtToken}` };
         $.ajax({
             type: 'POST',
             url: url,
+            headers:headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {

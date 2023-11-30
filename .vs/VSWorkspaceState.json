@@ -11,6 +11,6 @@
     "\\PracticeProject\\Views\\Students\\PartialViews",
     "\\PracticeProject\\Views\\Users"
   ],
-  "SelectedNode": "\\PracticeProject\\Controllers\\StudentController.cs",
+  "SelectedNode": "\\PracticeProject\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

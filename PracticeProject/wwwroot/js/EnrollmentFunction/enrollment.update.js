@@ -3,15 +3,18 @@
         e.preventDefault();
 
         var id = $('#EnrollmentID').val();
-        console.log(id);
         var url = 'https://localhost:7153/Enrollments/Edit/' + id;
         var formData = $('#formUpdate').serialize();
-        console.log(formData);
+        var jwtToken = localStorage.getItem("token");
+        var headers = { Authorization: `Bearer ${jwtToken}` };
+
+        
 
         $.ajax({
             type: 'POST',
             url: url,
             data: formData,
+            headers:headers,
             success: function (response) {
                 console.log(response);
                 if (response.success) {
