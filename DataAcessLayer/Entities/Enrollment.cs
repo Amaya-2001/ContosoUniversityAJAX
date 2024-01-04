@@ -9,7 +9,7 @@ namespace PracticeProject.Entities
     }
     public class Enrollment
     {
-        
+
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -18,9 +18,10 @@ namespace PracticeProject.Entities
         [ForeignKey("CourseID")]
         public int StudentID { get; set; }
         [ForeignKey("StudentID")]
-        public Grade? Grade { get; set; }
 
-        public Course? Course { get; set; }
-        public Entities.Student? Student { get; set; }
+        public Student Student { get; set; }
+
+        public Course Course { get; set; }
+
     }
 }

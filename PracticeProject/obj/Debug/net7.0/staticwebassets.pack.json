@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\js\\CourseFunction\\course.update.js"
     },
     {
+      "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.create.js",
+      "PackagePath": "staticwebassets\\js\\EnrollmentFunction\\enrollment.create.js"
+    },
+    {
       "Id": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.delete.js",
       "PackagePath": "staticwebassets\\js\\EnrollmentFunction\\enrollment.delete.js"
     },

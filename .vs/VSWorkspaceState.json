@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ContosoUniversityTestProject",
+    "\\DataAcessLayer",
+    "\\DataAcessLayer\\Entities",
     "\\PracticeProject",
-    "\\PracticeProject\\Controllers",
-    "\\PracticeProject\\Migrations",
-    "\\PracticeProject\\Models",
     "\\PracticeProject\\Views",
-    "\\PracticeProject\\Views\\Shared",
     "\\PracticeProject\\Views\\Students",
     "\\PracticeProject\\Views\\Students\\PartialViews",
-    "\\PracticeProject\\Views\\Users"
+    "\\PracticeProject\\Views\\Users",
+    "\\Web.API",
+    "\\Web.API\\Controllers"
   ],
-  "SelectedNode": "\\PracticeProject\\Startup.cs",
+  "SelectedNode": "\\ContosoUniversityTestProject\\StudentControllerTest.cs",
   "PreviewInSolutionExplorer": false
 }

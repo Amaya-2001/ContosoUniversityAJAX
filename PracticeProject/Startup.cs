@@ -51,7 +51,7 @@ namespace PracticeProject
 
             services.AddCors(options => options.AddDefaultPolicy(
 
-               builder => builder.WithOrigins("https://localhost:7153").AllowAnyMethod().AllowAnyHeader()));
+               builder => builder.WithOrigins("https://localhost:7153").AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
             
 

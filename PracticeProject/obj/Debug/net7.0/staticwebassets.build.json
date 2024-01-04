@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NwPpCbH2etffzQGmWFSCuyhGkAhif/i1RN1S8ATYSCg=",
+  "Hash": "2PrhN0/l1oIoUYxG/LC1EeteUroXqRL9GwI7tgggfpQ=",
   "Source": "PracticeProject",
   "BasePath": "_content/PracticeProject",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\enrollement.js"
+    },
+    {
+      "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.create.js",
+      "SourceId": "PracticeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\",
+      "BasePath": "_content/PracticeProject",
+      "RelativePath": "js/EnrollmentFunction/enrollment.create.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\EnrollmentFunction\\enrollment.create.js"
     },
     {
       "Identity": "D:\\Soft Gallery Tasks\\ContosoUniversityAJAX\\PracticeProject\\wwwroot\\js\\EnrollmentFunction\\enrollment.delete.js",

@@ -15,13 +15,13 @@ namespace PracticeProject.Controllers
     public class StudentsController : Controller
     {
         private readonly IStudentService _studentService;
-
-     
+       
         public StudentsController(IStudentService studentService)
         {
             _studentService = studentService;
         }
 
+        
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
@@ -35,8 +35,10 @@ namespace PracticeProject.Controllers
         {
             var students = await _studentService.GetStudents();
             var studentModel = ServiceConfigureExtensions.ToStudentModelList(students);
+            return Ok(studentModel);
             //return Json(studentModel);
-            return PartialView("~/Views/Students/PartialViews/StudentList.cshtml", studentModel);
+            //return PartialView("~/Views/Students/PartialViews/StudentList.cshtml", studentModel);
+
         }
 
         // Get: Students/Details
@@ -46,7 +48,8 @@ namespace PracticeProject.Controllers
         {
             return View(id);
         }
-        
+
+        [AllowAnonymous]
         public async Task<IActionResult> GetStudentDetails(int id)
         {
             var student = await _studentService.GetStudentByID(id);
@@ -63,16 +66,16 @@ namespace PracticeProject.Controllers
         [HttpPost]
         //[ValidateAntiForgeryToken]
        
-        public JsonResult Create([Bind("ID,EnrollmentDate,FirstMidName,LastName")] StudentModel studentModel)
+        public  JsonResult Create([Bind("ID,EnrollmentDate,FirstMidName,LastName")] StudentModel studentModel)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
                     var student = ServiceConfigureExtensions.ToCreateStudent(studentModel);
-                    _studentService.InsertStudent(student);
+                     _studentService.InsertStudent(student);
                     _studentService.Save();
-                    return Json(new {success =true});
+                    return  Json(new { success = true });
                 }
             }
             catch (DbUpdateException /* ex */)
@@ -124,22 +127,33 @@ namespace PracticeProject.Controllers
             }
             var student = await _studentService.GetStudentByID(id.Value);
             var studentModel = ServiceConfigureExtensions.ToStudentModel(student);
-
-            if (await TryUpdateModelAsync(studentModel, "",
-                s => s.FirstMidName, s => s.LastName, s => s.EnrollmentDate))
+            try
             {
-                try
-                {
-                    var updateStudent = ServiceConfigureExtensions.UpdateStudent(studentModel, student);
-                    _studentService.UpdateStudent(updateStudent);
-                    _studentService.Save();
-                    return Json(new { success = true });
-                }
-                catch (DbUpdateException)
-                {
-                    ModelState.AddModelError("", "Unable to save");
-                }
+                var updateStudent = ServiceConfigureExtensions.UpdateStudent(studentModel, student);
+                _studentService.UpdateStudent(updateStudent);
+                _studentService.Save();
+                return Json(new { success = true }, updateStudent);
             }
+            catch (DbUpdateException)
+            {
+                ModelState.AddModelError("", "Unable to save");
+            }
+
+            //if (await TryUpdateModelAsync(studentModel, "",
+            //    s => s.FirstMidName, s => s.LastName, s => s.EnrollmentDate))
+            //{
+            //    try
+            //    {
+            //        var updateStudent = ServiceConfigureExtensions.UpdateStudent(studentModel, student);
+            //        _studentService.UpdateStudent(updateStudent);
+            //        _studentService.Save();
+            //        return Json(new { success = true },updateStudent);
+            //    }
+            //    catch (DbUpdateException)
+            //    {
+            //        ModelState.AddModelError("", "Unable to save");
+            //    }
+            //}
             return Json(new { success = true });
         }
         //GET: Students/DELETE
