@@ -75,6 +75,7 @@ namespace PracticeProject.Controllers
                 try
                 {
                     var storedUser = await _userService.GetUserByEmail(userLoginModel.Email);
+                    //Console.WriteLine(storedUser);
                     if (storedUser == null)
                     {
                         // User not found
@@ -89,11 +90,13 @@ namespace PracticeProject.Controllers
                         iterationCount: 100000,
                         numBytesRequested: 256 / 8));
 
-                    
 
+                    Console.WriteLine("hashedPassword:", hashedPassword);
+                    Console.WriteLine("storedUser.Password:", storedUser.Password);
                     // Use a secure comparison method
                     if (SecureStringEquals(hashedPassword, storedUser.Password))
                     {
+                        
                         var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BlSc9ksNdSB8ecvT4Tuf1Wa4paFgkXEcdhstjarqHlk="));
                         var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
                         var tokenOptions = new JwtSecurityToken(

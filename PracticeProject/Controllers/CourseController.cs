@@ -33,6 +33,7 @@ namespace PracticeProject.Controllers
         {
             var courses = await _courseService.GetCourses();
             var courseModel = CourseServiceCfg.ToCourseList(courses);
+            //return Ok(courseModel);
             return PartialView("~/Views/Courses/PartialViews/CourseListPartial.cshtml", courseModel);
         }
 

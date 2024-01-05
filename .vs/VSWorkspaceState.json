@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ContosoUniversityTestProject",
     "\\DataAcessLayer",
     "\\DataAcessLayer\\Entities",
     "\\PracticeProject",
+    "\\PracticeProject\\Controllers",
     "\\PracticeProject\\Views",
     "\\PracticeProject\\Views\\Students",
     "\\PracticeProject\\Views\\Students\\PartialViews",
@@ -12,6 +12,6 @@
     "\\Web.API",
     "\\Web.API\\Controllers"
   ],
-  "SelectedNode": "\\ContosoUniversityTestProject\\StudentControllerTest.cs",
+  "SelectedNode": "\\PracticeProject\\Controllers\\StudentController.cs",
   "PreviewInSolutionExplorer": false
 }

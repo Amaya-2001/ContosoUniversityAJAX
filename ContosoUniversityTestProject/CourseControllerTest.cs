@@ -32,9 +32,19 @@ namespace ContosoUniversityTestProject
         }
 
         [TestMethod]
-        public async Task GetCourseList_ReturnPartialView()
+        public async Task GetCourseList_ReturnOk()
         {
-            //var courseList = 
+            //Arrange
+            var courseList = _fixture.CreateMany<Course>(3).ToList();
+            _courseServiceMock.Setup(service => service.GetCourses()).ReturnsAsync(courseList);
+
+            //Act
+            var result = await _controller.GetCourseList();
+
+            //Assert
+            Assert.IsInstanceOfType(result, typeof(OkObjectResult));
+            var actualCourses = ((OkObjectResult)result).Value as List<CourseModel>;
+            Assert.AreEqual(courseList.Count, actualCourses?.Count);
             
         }
 

@@ -9,7 +9,7 @@ function setupLogInForm() {
         
         var formData = $(this).serialize();
        
-
+       console.log(formData);
         $.ajax({
             type: 'POST',
             url: 'https://localhost:7153/Users/LoginPost',
