@@ -30,14 +30,14 @@ namespace PracticeProject.Controllers
             return View();
         }
 
-        
+        [AllowAnonymous]
         public async Task<IActionResult> GetStudentList()
         {
             var students = await _studentService.GetStudents();
             var studentModel = ServiceConfigureExtensions.ToStudentModelList(students);
-            return Ok(studentModel);
+            //return Ok(studentModel);
             //return Json(studentModel);
-            //return PartialView("~/Views/Students/PartialViews/StudentList.cshtml", studentModel);
+            return PartialView("~/Views/Students/PartialViews/StudentList.cshtml", studentModel);
 
         }
 

@@ -8,8 +8,7 @@ function setupLogInForm() {
         e.preventDefault();
         
         var formData = $(this).serialize();
-       
-       console.log(formData);
+        console.log(formData);
         $.ajax({
             type: 'POST',
             url: 'https://localhost:7153/Users/LoginPost',

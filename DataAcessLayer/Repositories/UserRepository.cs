@@ -31,9 +31,9 @@ namespace DataAcessLayer.Repositories
             _context.Users.Add(userSignUp);
             
         }
-        public async Task<UserSignUp> GetUserByEmailAsync(string Email)
+        public async  Task<UserSignUp> GetUserByEmailAsync(string Email)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Email == Email);
+            return await  _context.Users.FirstOrDefaultAsync(u => u.Email == Email);
             
             
             

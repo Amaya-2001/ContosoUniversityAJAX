@@ -12,16 +12,16 @@ namespace PracticeProject.Models
         [Required]
         [StringLength(25)]
         [EmailAddress]
-        public  string? Email { get; set; }
+        public  string Email { get; set; }
 
         [Required]
         [StringLength(10, MinimumLength =3)]
         [RegularExpression(@"^[a-zA-Z0-9_-]+$", ErrorMessage = "Invalid UserName format.")]
-        public  string? UserName { get; set; }
+        public  string UserName { get; set; }
 
         [Required]
         [StringLength (8, MinimumLength =6)]
         [DataType(DataType.Password)]
-        public  string? Password { get; set; }
+        public  string Password { get; set; }
     }
 }

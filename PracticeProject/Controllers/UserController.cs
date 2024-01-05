@@ -12,6 +12,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PracticeProject.Controllers
 {
@@ -68,21 +69,22 @@ namespace PracticeProject.Controllers
         //User login
         [HttpPost,ActionName("LoginPost")]
         
-        public async Task<JsonResult> LoginPost([Bind("Email, Password")] UserLoginModel userLoginModel)
+        public async Task<JsonResult> LoginPost(UserLoginModel userLoginModel)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
                     var storedUser = await _userService.GetUserByEmail(userLoginModel.Email);
-                    //Console.WriteLine(storedUser);
+                    
                     if (storedUser == null)
                     {
                         // User not found
                         return Json(new { success = false, error = "User not found" });
                     }
+                    
                     byte[] salt = Convert.FromBase64String(storedUser.PasswordSalt);
-
+                    
                     string hashedPassword = Convert.ToBase64String(KeyDerivation.Pbkdf2(
                         password: userLoginModel.Password,
                         salt: salt,
@@ -91,8 +93,7 @@ namespace PracticeProject.Controllers
                         numBytesRequested: 256 / 8));
 
 
-                    Console.WriteLine("hashedPassword:", hashedPassword);
-                    Console.WriteLine("storedUser.Password:", storedUser.Password);
+                    
                     // Use a secure comparison method
                     if (SecureStringEquals(hashedPassword, storedUser.Password))
                     {
@@ -108,7 +109,7 @@ namespace PracticeProject.Controllers
                             signingCredentials: signinCredentials
                         );
                         var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-                        Console.WriteLine("tokenString" + tokenString );
+                        
                             
 
                         return Json(new { success = true, token = tokenString, message = "Login successful" });
@@ -121,7 +122,7 @@ namespace PracticeProject.Controllers
             }
 
             // Handle ModelState.IsValid is false
-            return Json(new { success = false, error = "Model validation failed" });
+            return Json(new { success = false, });
         }
 
         private static bool SecureStringEquals(string a, string b)
